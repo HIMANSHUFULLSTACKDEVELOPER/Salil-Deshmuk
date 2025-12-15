@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shri. Salil Deshmukh – Secretary</title>
+    <link rel="icon" type="image/png"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvyaYv1AT9EXBBaw3TL9BrvonNFbUAXMQZUQ&s">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <!-- Scroll Progress Bar -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Top Banner -->
+    <div class="top-banner">
+        <span class="banner-text">"Experience You Can Trust, Development You Can See"</span>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo-section">
+                <a href="./index.html">
+                    <div class="logo">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvyaYv1AT9EXBBaw3TL9BrvonNFbUAXMQZUQ&s"
+                            alt="Nagpur Institute of Technology">
+                        <span class="logo-text">Shri. Salil Deshmukh</span>
+                    </div>
+                </a>
+            </div>
+
+            <style>
+                .logo-section {
+                    padding: 10px 0;
+                }
+
+                .logo-section a {
+                    text-decoration: none;
+                }
+
+                .logo {
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+                    cursor: pointer;
+                }
+
+                .logo img {
+                    height: 55px;
+                    width: auto;
+                    object-fit: contain;
+                    transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+                }
+
+                .logo:hover img {
+                    transform: rotate(5deg) scale(1.08);
+                    filter: drop-shadow(0 8px 16px rgba(0, 51, 102, 0.25));
+                }
+
+                .logo-text {
+                    font-size: 1.2em;
+                    font-weight: 600;
+                    color: #003366;
+                    position: relative;
+                    display: inline-block;
+                    transition: all 0.4s ease;
+                    overflow: hidden;
+                }
+
+                .logo-text::after {
+                    content: '';
+                    position: absolute;
+                    bottom: 0;
+                    left: -100%;
+                    width: 100%;
+                    height: 3px;
+                    background: linear-gradient(90deg, #0066cc, #00b4ff);
+                    transition: left 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+                }
+
+                .logo:hover .logo-text {
+                    color: #0066cc;
+                    transform: translateY(-3px);
+                }
+
+                .logo:hover .logo-text::after {
+                    left: 0;
+                }
+
+                @keyframes subtle-float {
+
+                    0%,
+                    100% {
+                        transform: translateY(0px);
+                    }
+
+                    50% {
+                        transform: translateY(-4px);
+                    }
+                }
+
+                .logo:hover {
+                    animation: subtle-float 0.6s ease-in-out;
+                }
+
+                @media (max-width: 768px) {
+                    .logo-text {
+                        font-size: 1em;
+                    }
+
+                    .logo img {
+                        height: 45px;
+                    }
+
+                    .logo {
+                        gap: 10px;
+                    }
+                }
+            </style>
+
+
+
+            <nav>
+            <ul class="nav-menu" id="navMenu">
+
+    <!-- ABOUT -->
+    <li class="nav-item">
+        <a class="dropdown">ABOUT US</a>
+        <div class="dropdown-menu">
+            <a href="./about/about.html">The Leader</a>
+            <a href="./about/leadership.html">Leadership Team</a>
+            <a href="./about/vision.html">Vision & Mission</a>
+            <a href="./about/achievements.html">Achievements</a>
+        </div>
+    </li>
+
+    <!-- AGENDA -->
+    <li class="nav-item">
+        <a class="dropdown">AGENDA</a>
+        <div class="dropdown-menu">
+            <a href="./agenda/development.html">Development Plan</a>
+            <a href="./agenda/policies.html">Policies & Reforms</a>
+            <a href="./agenda/welfare.html">Public Welfare</a>
+            <a href="./agenda/youth.html">Youth Initiatives</a>
+        </div>
+    </li>
+
+    <!-- CAMPAIGN -->
+    <li class="nav-item">
+        <a class="dropdown">CAMPAIGN</a>
+        <div class="dropdown-menu">
+            <a href="./campaign/events.html">Campaign Events</a>
+            <a href="./campaign/rallies.html">Rallies & Meetings</a>
+            <a href="./campaign/schedule.html">Campaign Schedule</a>
+        </div>
+    </li>
+
+    <!-- MEDIA -->
+    <li class="nav-item">
+        <a class="dropdown">MEDIA</a>
+        <div class="dropdown-menu">
+            <a href="./media/news.html">News & Updates</a>
+            <a href="./media/press.html">Press Releases</a>
+            <a href="./media/gallery.html">Photo Gallery</a>
+            <a href="./media/videos.html">Videos</a>
+        </div>
+    </li>
+
+    <!-- INITIATIVES -->
+    <li class="nav-item">
+        <a class="dropdown">INITIATIVES</a>
+        <div class="dropdown-menu">
+            <a href="./initiatives/social.html">Social Initiatives</a>
+            <a href="./initiatives/education.html">Education Programs</a>
+            <a href="./initiatives/health.html">Health & Welfare</a>
+        </div>
+    </li>
+
+    <!-- JOIN US -->
+    <li class="nav-item">
+        <a class="dropdown">JOIN US</a>
+        <div class="dropdown-menu">
+            <a href="./join/volunteer.html">Become a Volunteer</a>
+            <a href="./join/membership.html">Membership</a>
+            <a href="./join/support.html">Support the Campaign</a>
+        </div>
+    </li>
+
+    <!-- CONTACT -->
+    <li class="nav-item">
+        <a href="#contact">CONTACT US</a>
+    </li>
+
+</ul>
+
+
+                <div class="mobile-toggle" id="mobileToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+        </div>
+    </nav>
+
+  <!-- Hero Slider -->
+<div class="slider-container" id="home">
+
+    <!-- Slide 1 -->
+    <div class="slide active"
+        style="background-image: url('./3.png');">
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+            <h1 class="slide-title">Shri. Salil Deshmukh</h1>
+            <p class="slide-description">Committed to People, Driven by Development</p>
+            <a href="#agenda" class="cta-button">Learn More</a>
+        </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="slide"
+        style="background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgxcR9__9KCHah_qEU5GU0_zVQolYAaRQlDQGrS1prDnrOMIKjH3D0lWdTyxkqcj5JBXOX1Rng1l8mWRnlU8kBZBfGVtwIb9nLWmVvX67NiFB0eQ4niK5hWOxin2RV4uUfY4kRxGF0qc38-54ybdnkToDqW22PXo3N6B5qFulj7REhsMg2BF36v7eTQlDq6/s3000/5.png');">
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+            <h1 class="slide-title">Building Strong Communities</h1>
+            <p class="slide-description">Empowering citizens for a brighter future</p>
+            <a href="#initiatives" class="cta-button">Our Initiatives</a>
+        </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="slide"
+        style="background-image: url('https://st.depositphotos.com/1058054/4890/i/450/depositphotos_48906965-stock-photo-hude-crowd-at-a-political.jpg');">
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+            <h1 class="slide-title">Development for All</h1>
+            <p class="slide-description">Sustainable growth that benefits every citizen</p>
+            <a href="#agenda" class="cta-button">View Agenda</a>
+        </div>
+    </div>
+
+    <!-- Slide 4 -->
+    <div class="slide"
+        style="background-image: url('https://media.istockphoto.com/id/1282580187/photo/crowds-of-protesters-march-in-bangkok-thailand.jpg?s=612x612&w=0&k=20&c=7JdgNivY7GjSFiJUOVPSXfTDn-bMa2l4MQCzH1TI1M4=');">
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+            <h1 class="slide-title">Join Our Movement</h1>
+            <p class="slide-description">Be part of positive change and progress</p>
+            <a href="#join" class="cta-button">Get Involved</a>
+        </div>
+    </div>
+
+    <!-- Slider Navigation -->
+    <div class="slide-nav">
+        <div class="nav-arrow left"></div>
+        <div class="nav-arrow right"></div>
+    </div>
+
+    <div class="slider-dots">
+        <div class="dot active" data-slide="0"></div>
+        <div class="dot" data-slide="1"></div>
+        <div class="dot" data-slide="2"></div>
+        <div class="dot" data-slide="3"></div>
+    </div>
+</div>
+
+
+    <!-- Badge Section -->
+    <div class="nit-badge-section" id="nit-badge">
+        <div class="nit-badge-slider">
+            <div class="nit-badge-item"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmPRSIiVWEOulxTS0B7XZhJkkuG4SHO6byUA&s"
+                    alt="Campus" /></div>
+            <div class="nit-badge-item"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpcDb3MCGAjDlr9UwIAkaBEf7kiGaVp285PQ&s"
+                    alt="Partner" /></div>
+            <div class="nit-badge-item"><img
+                    src="https://i0.wp.com/punemirror.com/wp-content/uploads/2025/11/Web_Photo_Editor-15-2.jpg?fit=%2C&ssl=1"
+                    alt="IGNOU" /></div>
+            <div class="nit-badge-item"><img
+                    src="https://d3pc1xvrcw35tl.cloudfront.net/images/685x514/deshmukh-5558_202001351662.jpg"
+                    alt="Government" /></div>
+            <div class="nit-badge-item"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE4KAMBv29M6S2Do7gScRT5qBK7ZLYw3jRlg&s"
+                    alt="Logo" /></div>
+            <div class="nit-badge-item"><img
+                    src="https://images.tv9hindi.com/wp-content/uploads/2025/11/salil-deshmukh.jpg?q=70&w=400"
+                    alt="Startup" />
+            </div>
+            <div class="nit-badge-item"><img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBxz_bXytJ1on7YF7-BJuuyr84dxd32KblsQ&s"
+                    alt="Campus" /></div>
+            <div class="nit-badge-item"><img
+                    src="https://imgs.etvbharat.com/etvbharat/prod-images/29-07-2024/22076220_anil-deshmukh-bite.jpg"
+                    alt="Partner" /></div>
+            <div class="nit-badge-item"><img
+                    src="https://images.tv9hindi.com/wp-content/uploads/2025/11/salil-deshmukh.jpg?q=70&w=400"
+                    alt="IGNOU" /></div>
+            <div class="nit-badge-item"><img
+                    src="https://d3pc1xvrcw35tl.cloudfront.net/images/685x514/deshmukh-5558_202001351662.jpg"
+                    alt="Startup" />
+            </div>
+        </div>
+    </div>
+
+    <!-- Achievement, Notice, Placement Section -->
+    <div class="nit-container">
+        <div class="nit-grid">
+            <!-- Achievements Section -->
+            <div class="nit-card">
+                <h2 class="nit-card-title"></h2>
+
+                <div class="nit-main-banner" id="nitAchievementBanner">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU-27RvEOujAmlMQZ3O7yEXszrpwn3m9iGgg&s"
+                        alt="Achievement 1" class="nit-banner-img active">
+                    <img src="https://media.assettype.com/sarkarnama/2024-10-29/3fj4eiu2/9.jpg" alt="Achievement 2"
+                        class="nit-banner-img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHoEU8ReVfSzNSYLNtOvBQS-HRBirtJ_33Cg&s"
+                        alt="Achievement 3" class="nit-banner-img">
+                    <!-- <img src="./img/arc-plac-img/1-4.jpg" alt="Achievement 4" class="nit-banner-img">
+                    <img src="./img/arc-plac-img/1-5.jpg" alt="Achievement 5" class="nit-banner-img">
+                    <img src="./img/arc-plac-img/1-6.jpg" alt="Achievement 6" class="nit-banner-img">
+                    <img src="./img/arc-plac-img/1-7.jpeg" alt="Achievement 7" class="nit-banner-img">
+                    <img src="./img/arc-plac-img/1-8.jpg" alt="Achievement 8" class="nit-banner-img"> -->
+                </div>
+
+                <div class="nit-gallery-dots" id="nitAchievementDots">
+                    <div class="nit-dot active" onclick="showAchievementSlide(0)"></div>
+                    <div class="nit-dot" onclick="showAchievementSlide(1)"></div>
+                    <div class="nit-dot" onclick="showAchievementSlide(2)"></div>
+                    <div class="nit-dot" onclick="showAchievementSlide(3)"></div>
+                    <div class="nit-dot" onclick="showAchievementSlide(4)"></div>
+                    <div class="nit-dot" onclick="showAchievementSlide(5)"></div>
+                    <div class="nit-dot" onclick="showAchievementSlide(6)"></div>
+                    <div class="nit-dot" onclick="showAchievementSlide(7)"></div>
+                </div>
+            </div>
+
+            <!-- Notifications Section -->
+            <div class="nit-card">
+                <h2 class="nit-card-title">Important Public Updates</h2>
+
+                <a href="#public-meetings" class="nit-notification-link">
+                    <div class="nit-notification-item new">
+                        <span class="nit-notification-icon">NEW</span>
+                        <span class="nit-notification-text">
+                            Public Meeting Held with Citizens to Address Local Issues
+                        </span>
+                        <span class="nit-notification-arrow">→</span>
+                    </div>
+                </a>
+
+                <a href="#development-work" class="nit-notification-link">
+                    <div class="nit-notification-item new">
+                        <span class="nit-notification-icon">NEW</span>
+                        <span class="nit-notification-text">
+                            Development Projects Reviewed for Rural Infrastructure Improvement
+                        </span>
+                        <span class="nit-notification-arrow">→</span>
+                    </div>
+                </a>
+
+                <a href="#water-supply" class="nit-notification-link">
+                    <div class="nit-notification-item">
+                        <span class="nit-notification-icon" style="background: #667eea;">INFO</span>
+                        <span class="nit-notification-text">
+                            Water Supply Issues Addressed in Rohana and Nearby Villages
+                        </span>
+                        <span class="nit-notification-arrow">→</span>
+                    </div>
+                </a>
+
+                <a href="#health-camp" class="nit-notification-link">
+                    <div class="nit-notification-item">
+                        <span class="nit-notification-icon" style="background: #667eea;">INFO</span>
+                        <span class="nit-notification-text">
+                            Free Health Camp Organized for Senior Citizens and Women
+                        </span>
+                        <span class="nit-notification-arrow">→</span>
+                    </div>
+                </a>
+
+                <a href="#youth-program" class="nit-notification-link">
+                    <div class="nit-notification-item">
+                        <span class="nit-notification-icon" style="background: #667eea;">INFO</span>
+                        <span class="nit-notification-text">
+                            Youth Interaction Program Conducted to Support Skill Development
+                        </span>
+                        <span class="nit-notification-arrow">→</span>
+                    </div>
+                </a>
+
+                <a href="#farmer-support" class="nit-notification-link">
+                    <div class="nit-notification-item">
+                        <span class="nit-notification-icon" style="background: #667eea;">INFO</span>
+                        <span class="nit-notification-text">
+                            Farmer Support Initiatives Reviewed for Upcoming Season
+                        </span>
+                        <span class="nit-notification-arrow">→</span>
+                    </div>
+                </a>
+            </div>
+
+
+            <!-- Placements Section -->
+            <div class="nit-card">
+                <h2 class="nit-card-title"></h2>
+
+                <div class="nit-main-banner" id="nitPlacementBanner">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxF9Q6cVAB_L045G7xdMRP8NohGhgNucjTrA&s"
+                        alt="Placement 1" class="nit-banner-img active">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxV-ctYEdWUknIIQ9YBWOfJNX1eGQzmGJcYg&s"
+                        alt="Placement 2" class="nit-banner-img">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQg00iRoRPxLZnYGFmlFJqU1rFsQUGIXH0xAA&s"
+                        alt="Placement 3" class="nit-banner-img">
+
+
+                    <!-- <img src="./img/arc-plac-img/2-4.jpg" alt="Placement 4" class="nit-banner-img">
+                    <img src="./img/arc-plac-img/2-5.jpg" alt="Placement 5" class="nit-banner-img">
+                    <img src="./img/arc-plac-img/2-6.jpeg" alt="Placement 6" class="nit-banner-img">
+                    <img src="./img/arc-plac-img/2-7.jpg" alt="Placement 7" class="nit-banner-img">
+                    <img src="./img/arc-plac-img/2-8.jpg" alt="Placement 8" class="nit-banner-img"> -->
+                </div>
+
+                <div class="nit-gallery-dots" id="nitPlacementDots">
+                    <div class="nit-dot active" onclick="showPlacementSlide(0)"></div>
+                    <div class="nit-dot" onclick="showPlacementSlide(1)"></div>
+                    <div class="nit-dot" onclick="showPlacementSlide(2)"></div>
+                    <div class="nit-dot" onclick="showPlacementSlide(3)"></div>
+                    <div class="nit-dot" onclick="showPlacementSlide(4)"></div>
+                    <div class="nit-dot" onclick="showPlacementSlide(5)"></div>
+                    <div class="nit-dot" onclick="showPlacementSlide(6)"></div>
+                    <div class="nit-dot" onclick="showPlacementSlide(7)"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <br>
+    <br>
+
+  <style>
+      
+        .news-section {
+            max-width: 1500px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 24px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+        
+        .section-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .section-header h2 {
+            font-size: 42px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+        
+        .section-header p {
+            color: #666;
+            font-size: 18px;
+        }
+        
+        .updates-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .update-card {
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            cursor: pointer;
+            position: relative;
+        }
+        
+        .update-card:hover {
+            transform: translateY(-12px) scale(1.02);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.25);
+        }
+        
+        .card-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            transition: transform 0.4s ease;
+        }
+        
+        .update-card:hover .card-image {
+            transform: scale(1.1);
+        }
+        
+        .card-content {
+            padding: 25px;
+            color: white;
+            position: relative;
+        }
+        
+        .card-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 15px;
+        }
+        
+        .card-title {
+            font-size: 20px;
+            font-weight: 600;
+            flex: 1;
+        }
+        
+        .card-date {
+            background: rgba(255, 255, 255, 0.25);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 500;
+            white-space: nowrap;
+            margin-left: 10px;
+        }
+        
+        .card-description {
+            font-size: 15px;
+            line-height: 1.7;
+            margin: 15px 0;
+            opacity: 0.95;
+        }
+        
+        .card-tags {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .tag {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 6px 14px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 500;
+            backdrop-filter: blur(10px);
+        }
+        
+        .gradient-1 { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .gradient-2 { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+        .gradient-3 { background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); }
+        .gradient-4 { background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); }
+        .gradient-5 { background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); }
+        .gradient-6 { background: linear-gradient(135deg, #30cfd0 0%, #330867 100%); }
+        
+        .see-more-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .see-more-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 16px 50px;
+            font-size: 18px;
+            font-weight: 600;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .see-more-btn:hover {
+            transform: scale(1.08);
+            box-shadow: 0 15px 40px rgba(102, 126, 234, 0.6);
+        }
+        
+        .see-more-btn:active {
+            transform: scale(1.02);
+        }
+        
+        @media (max-width: 768px) {
+            .updates-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .section-header h2 {
+                font-size: 32px;
+            }
+            
+            .news-section {
+                padding: 25px;
+            }
+        }
+    </style>
+    <!--  -->
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to top">
+        ↑
+    </button>
+
+    <div class="nit-contain">
+        <!-- University Rankers nitsectionn -->
+        <div class="news-section">
+        <div class="section-header">
+            <h2>📰 Latest News Headlines</h2>
+            <p>Stay updated with the latest happenings at our campus</p>
+        </div>
+        
+        <div class="updates-grid">
+            <!-- Card 1: Placement Drive -->
+            <div class="update-card">
+                <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=600&h=400&fit=crop" alt="Placement Drive" class="card-image">
+                <div class="card-content gradient-1">
+                    <div class="card-header">
+                        <h3 class="card-title">Placement Drive 2024</h3>
+                        <span class="card-date">Dec 15, 2024</span>
+                    </div>
+                    <p class="card-description">Top companies including Google, Amazon, and Microsoft are recruiting our talented students with excellent package offers.</p>
+                    <div class="card-tags">
+                        <span class="tag">🎯 Placement</span>
+                        <span class="tag">💼 Recruitment</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2: Research Innovation -->
+            <div class="update-card">
+                <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=600&h=400&fit=crop" alt="Research Innovation" class="card-image">
+                <div class="card-content gradient-2">
+                    <div class="card-header">
+                        <h3 class="card-title">Research Innovation Awards</h3>
+                        <span class="card-date">Dec 14, 2024</span>
+                    </div>
+                    <p class="card-description">Our research team wins the National Innovation Award for groundbreaking work in AI and renewable energy technologies.</p>
+                    <div class="card-tags">
+                        <span class="tag">🔬 Research</span>
+                        <span class="tag">🏆 Award</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: Alumni Success -->
+            <div class="update-card">
+                <img src="https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=600&h=400&fit=crop" alt="Alumni Success" class="card-image">
+                <div class="card-content gradient-3">
+                    <div class="card-header">
+                        <h3 class="card-title">Alumni Success Story</h3>
+                        <span class="card-date">Dec 13, 2024</span>
+                    </div>
+                    <p class="card-description">Our alumni launched a successful startup valued at $50M with innovative solutions in cloud computing and data analytics.</p>
+                    <div class="card-tags">
+                        <span class="tag">🎓 Alumni</span>
+                        <span class="tag">🚀 Startup</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4: Sports Championship -->
+            <div class="update-card">
+                <img src="https://images.unsplash.com/photo-1461896836934-ffe607ba8211?w=600&h=400&fit=crop" alt="Sports Championship" class="card-image">
+                <div class="card-content gradient-4">
+                    <div class="card-header">
+                        <h3 class="card-title">Sports Championship</h3>
+                        <span class="card-date">Dec 12, 2024</span>
+                    </div>
+                    <p class="card-description">NIT wins the Inter-College Sports Championship with outstanding performances across all athletic and team events.</p>
+                    <div class="card-tags">
+                        <span class="tag">⚽ Sports</span>
+                        <span class="tag">🏅 Achievement</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5: Guest Lecture -->
+            <div class="update-card">
+                <img src="https://images.unsplash.com/photo-1475721027785-f74eccf877e2?w=600&h=400&fit=crop" alt="Guest Lecture" class="card-image">
+                <div class="card-content gradient-5">
+                    <div class="card-header">
+                        <h3 class="card-title">Guest Lecture Series</h3>
+                        <span class="card-date">Dec 11, 2024</span>
+                    </div>
+                    <p class="card-description">Industry leaders from Fortune 500 companies deliver expert talks on latest trends in technology and innovation management.</p>
+                    <div class="card-tags">
+                        <span class="tag">🎤 Webinar</span>
+                        <span class="tag">📚 Learning</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 6: Campus Hackathon -->
+            <div class="update-card">
+                <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=600&h=400&fit=crop" alt="Campus Hackathon" class="card-image">
+                <div class="card-content gradient-6">
+                    <div class="card-header">
+                        <h3 class="card-title">Campus Hackathon</h3>
+                        <span class="card-date">Dec 10, 2024</span>
+                    </div>
+                    <p class="card-description">24-hour coding competition with prizes worth 2 lakhs rupees. Students showcase innovative solutions to real-world problems.</p>
+                    <div class="card-tags">
+                        <span class="tag">💻 Hackathon</span>
+                        <span class="tag">⌨️ Coding</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="see-more-container">
+            <button class="see-more-btn">
+                <span>📌</span>
+                <span>See More Updates</span>
+            </button>
+        </div>
+    </div>
+
+        <!-- Proudly Placed Students nitsectionn -->
+        <!-- <div class="nitsectionn">
+            <h2 class="nitsectionn-title">Gallery</h2>
+            <div class="students-nit-contain">
+                <div class="students-masonry">
+                    <div class="nittstudent-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn3BSXZGp1siGjoIAc7X80APNaqwwXt3v7sw&s" alt="Placed Student 1">
+
+                    </div>
+                    <div class="nittstudent-card">
+                        <img src="./img/arc-plac-img/ps2.jpeg" alt="Placed Student 2">
+
+                    </div>
+                    <div class="nittstudent-card">
+                        <img src="./img/arc-plac-img/ps3.jpeg" alt="Placed Student 3">
+                         <div class="student-info">
+                            <h4>Amazon</h4>
+                            <p>Cloud Architect</p>
+                        </div> 
+                    </div>
+                    <div class="nittstudent-card">
+                        <img src="./img/arc-plac-img/ps4.jpeg" alt="Placed Student 4">
+
+                    </div>
+                    <div class="nittstudent-card">
+                        <img src="./img/arc-plac-img/ps5.jpeg" alt="Placed Student 5">
+
+                    </div>
+                    <div class="nittstudent-card">
+                        <img src="./img/arc-plac-img/ps6.jpeg" alt="Placed Student 6">
+
+                    </div>
+                    <div class="nittstudent-card">
+                        <img src="./img/arc-plac-img/ps7.jpeg" alt="Placed Student 7">
+
+                    </div>
+                    <div class="nittstudent-card">
+                        <img src="./img/arc-plac-img/ps8.jpeg" alt="Placed Student 8">
+
+                    </div>
+                   
+                    <div class="nittstudent-card">
+                        <img src="./img/arc-plac-img/ps1.jpeg" alt="Placed Student 1">
+
+                    </div>
+                    <div class="nittstudent-card">
+                        <img src="./img/arc-plac-img/ps3.jpeg" alt="Placed Student 2">
+
+                    </div>
+                    <div class="nittstudent-card">
+                        <img src="./img/arc-plac-img/ps2.jpeg" alt="Placed Student 3">
+
+                    </div>
+                    <div class="nittstudent-card">
+                        <img src="./img/arc-plac-img/ps5.jpeg" alt="Placed Student 4">
+
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+
+        <!-- Celebrities & Achievers @NIT -->
+        <div class="nitsectionn">
+            <h2 class="nitsectionn-title">Gallery</h2>
+            <div class="students-nit-contain">
+                <div class="students-masonry">
+                    <div class="nittstudent-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn3BSXZGp1siGjoIAc7X80APNaqwwXt3v7sw&s"
+                            alt="Placed Student 1">
+                        <div class="student-info">
+                           
+                        </div>
+                    </div>
+                    <div class="nittstudent-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsmnAt_ovjAeRW_F0VHPDXpyBUSVhe6Kndnw&s"
+                            alt="Placed Student 2">
+                        <div class="student-info">
+                            <!-- <h4>Ritesh Deshmukh
+                            </h4>
+                            <p>Bollywood Celebrity</p> -->
+                        </div>
+                    </div>
+                    <div class="nittstudent-card">
+                        <img src="https://media.assettype.com/sarkarnama/2024-10-29/97xfkreu/10.jpg"
+                            alt="Placed Student 3">
+                        <div class="student-info">
+                          
+                        </div>
+                    </div>
+                    <div class="nittstudent-card">
+                        <img src="https://media.licdn.com/dms/image/v2/C5603AQEnXe9QJzGfSg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1620898858972?e=2147483647&v=beta&t=YDxYJYhH32l0P1w0CzooMaV0ETM0Qonuj9xEH0zNohE"
+                            alt="Placed Student 4">
+                        <div class="student-info">
+                          
+                        </div>
+                    </div>
+                    <div class="nittstudent-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU-27RvEOujAmlMQZ3O7yEXszrpwn3m9iGgg&s"
+                            alt="Placed Student 5">
+                        <div class="student-info">
+                           
+                        </div>
+                    </div>
+                    <div class="nittstudent-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyiyy8gptXRPOi-l8GYcnaAvC2cyrPIJW0Mw&s"
+                            alt="Placed Student 6">
+                        <div class="student-info">
+                         
+                        </div>
+                    </div>
+
+                     <div class="nittstudent-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRn3BSXZGp1siGjoIAc7X80APNaqwwXt3v7sw&s"
+                            alt="Placed Student 1">
+                        <div class="student-info">
+                           
+                        </div>
+                    </div>
+                    <div class="nittstudent-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsmnAt_ovjAeRW_F0VHPDXpyBUSVhe6Kndnw&s"
+                            alt="Placed Student 2">
+                        <div class="student-info">
+                            <!-- <h4>Ritesh Deshmukh
+                            </h4>
+                            <p>Bollywood Celebrity</p> -->
+                        </div>
+                    </div>
+                    <div class="nittstudent-card">
+                        <img src="https://media.assettype.com/sarkarnama/2024-10-29/97xfkreu/10.jpg"
+                            alt="Placed Student 3">
+                        <div class="student-info">
+                          
+                        </div>
+                    </div>
+                    <div class="nittstudent-card">
+                        <img src="https://media.licdn.com/dms/image/v2/C5603AQEnXe9QJzGfSg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1620898858972?e=2147483647&v=beta&t=YDxYJYhH32l0P1w0CzooMaV0ETM0Qonuj9xEH0zNohE"
+                            alt="Placed Student 4">
+                        <div class="student-info">
+                          
+                        </div>
+                    </div>
+                    <div class="nittstudent-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU-27RvEOujAmlMQZ3O7yEXszrpwn3m9iGgg&s"
+                            alt="Placed Student 5">
+                        <div class="student-info">
+                           
+                        </div>
+                    </div>
+                    <div class="nittstudent-card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyiyy8gptXRPOi-l8GYcnaAvC2cyrPIJW0Mw&s"
+                            alt="Placed Student 6">
+                        <div class="student-info">
+                         
+                        </div>
+                    </div>
+                   
+                   
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  -->
+    <br><br>
+
+    <!--  -->
+    <div class="niit-container">
+
+
+
+        <!-- STATS -->
+        <div class="niit-stats">
+            <div class="niit-stat-card">
+                <div class="niit-stat-number">15%</div>
+                <div>Years of Public Service</div>
+            </div>
+
+            <div class="niit-stat-card">
+                <div class="niit-stat-number">55+</div>
+                <div>Major Development Projects</div>
+            </div>
+
+            <div class="niit-stat-card">
+                <div class="niit-stat-number">1M</div>
+                <div>People Benefited</div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- FACILITIES - POLITICAL/CIVIC INFRASTRUCTURE -->
+        <h2 class="niit-section-title">Facilities: Building the Nation's Future</h2>
+        <p class="niit-section-sub">Democratic access to world-class infrastructure & educational equity</p>
+
+        <div class="niit-facility-grid">
+
+            <div class="niit-icon-grid">
+                <div class="niit-icon-box">
+                    <div class="niit-icon">🏘️</div>
+                    <div class="niit-icon-name">Comprehensive Rural Development Initiatives</div>
+                </div>
+                <div class="niit-icon-box">
+                    <div class="niit-icon">👩‍🦰</div>
+                    <div class="niit-icon-name">Women Safety & Empowerment Programs</div>
+                </div>
+                <div class="niit-icon-box">
+                    <div class="niit-icon">🌱</div>
+                    <div class="niit-icon-name">Sustainable & Environment-Friendly Growth</div>
+                </div>
+                <div class="niit-icon-box">
+                    <div class="niit-icon">📱</div>
+                    <div class="niit-icon-name">Digital Governance & Citizen Services</div>
+                </div>
+                <div class="niit-icon-box">
+                    <div class="niit-icon">🏛️</div>
+                    <div class="niit-icon-name">Transparent & Accessible Public Offices</div>
+                </div>
+                <div class="niit-icon-box">
+                    <div class="niit-icon">🤝</div>
+                    <div class="niit-icon-name">Community Engagement & Public Hearings</div>
+                </div>
+                <div class="niit-icon-box">
+                    <div class="niit-icon">🏥</div>
+                    <div class="niit-icon-name">Improved Healthcare Facilities</div>
+                </div>
+                <div class="niit-icon-box">
+                    <div class="niit-icon">🛠️</div>
+                    <div class="niit-icon-name">Skill Development & Employment Support</div>
+                </div>
+                <div class="niit-icon-box">
+                    <div class="niit-icon">📶</div>
+                    <div class="niit-icon-name">Digital Connectivity for Every Village</div>
+                </div>
+                <div class="niit-icon-box">
+                    <div class="niit-icon">🚰</div>
+                    <div class="niit-icon-name">Clean Drinking Water for All</div>
+                </div>
+                <div class="niit-icon-box">
+                    <div class="niit-icon">⚡</div>
+                    <div class="niit-icon-name">Reliable Electricity & Infrastructure</div>
+                </div>
+                <div class="niit-icon-box">
+                    <div class="niit-icon">🏃‍♂️</div>
+                    <div class="niit-icon-name">Sports, Health & Youth Wellness Programs</div>
+                </div>
+            </div>
+
+
+            <div class="niit-photo-box">
+                <img src="https://media.licdn.com/dms/image/v2/C4E03AQGObOs5aEkrgg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1607281960252?e=2147483647&v=beta&t=0g_FeRhVShDMVEhD1V5haOuCfdfzm4ApmnBVTj6GSJ8"
+                    alt="Campus Infrastructure for Democratic Education">
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+
+        <div class="niit-hero">
+            <h1>Building a Strong Nation Through Responsible Leadership</h1>
+            <p class="niit-vision">Empowered by the vision of Shri. Salil Deshmukh</p>
+            <div class="niit-code"></div>
+            <p class="niit-mission">Building skilled citizens for India's technological future</p>
+        </div>
+
+        <style>
+            .niit-hero {
+                text-align: center;
+                padding: 60px 20px;
+                background: linear-gradient(135deg, rgba(0, 51, 102, 0.9), rgba(0, 102, 204, 0.9));
+                color: white;
+            }
+
+            .niit-hero h1 {
+                font-size: 3em;
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+
+            .niit-vision {
+                font-size: 1.3em;
+                font-style: italic;
+                margin-bottom: 15px;
+                color: #ffd700;
+            }
+
+            .niit-code {
+                font-size: 1.2em;
+                background: rgba(255, 255, 255, 0.2);
+                padding: 10px 20px;
+                display: inline-block;
+                border-radius: 5px;
+                margin-bottom: 15px;
+            }
+
+            .niit-mission {
+                font-size: 1.1em;
+                margin-top: 20px;
+                color: #e0e0e0;
+            }
+        </style>
+
+    </div>
+    <!--  -->
+
+
+
+    <!-- Footer -->
+    <footer class="nit-footer">
+        <!-- Animated Background -->
+        <div class="nit-particles">
+            <div class="nit-particle" style="width: 4px; height: 4px; top: 10%; left: 20%; animation-delay: 0s;"></div>
+            <div class="nit-particle" style="width: 6px; height: 6px; top: 30%; left: 60%; animation-delay: 2s;"></div>
+            <div class="nit-particle" style="width: 3px; height: 3px; top: 50%; left: 80%; animation-delay: 4s;"></div>
+            <div class="nit-particle" style="width: 5px; height: 5px; top: 70%; left: 40%; animation-delay: 6s;"></div>
+            <div class="nit-particle" style="width: 4px; height: 4px; top: 20%; left: 90%; animation-delay: 3s;"></div>
+        </div>
+        <div class="nit-grid-bg"></div>
+        <div class="nit-orb nit-orb1"></div>
+        <div class="nit-orb nit-orb2"></div>
+        <div class="nit-orb nit-orb3"></div>
+
+        <div class="nit-footer-container">
+            <!-- Brand Section -->
+            <div class="nit-footer-brand">
+                <div class="nit-brand-logo">Shri. Salil Deshmukh</div>
+                <p class="nit-brand-tagline">
+                    Serving society with integrity, commitment, and a vision for tomorrow.
+                </p>
+                <div class="nit-social-links">
+                    <a href="#" aria-label="Facebook"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#" aria-label="Instagram"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#" aria-label="Twitter"><ion-icon name="logo-twitter"></ion-icon></a>
+                    <a href="#" aria-label="LinkedIn"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href="#" aria-label="YouTube"><ion-icon name="logo-youtube"></ion-icon></a>
+                </div>
+            </div>
+
+<!-- Quick Links -->
+<div class="nit-footer-column">
+    <h3>Quick Links</h3>
+    <ul>
+        <li><a href="./about/about.html">About the Leader</a></li>
+        <li><a href="./agenda/development.html">Agenda</a></li>
+        <li><a href="./campaign/events.html">Campaign</a></li>
+        <li><a href="./media/news.html">Media</a></li>
+        <li><a href="./initiatives/social.html">Initiatives</a></li>
+        <li><a href="./join/volunteer.html">Join Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</div>
+
+<!-- Resources -->
+<div class="nit-footer-column">
+    <h3>Resources</h3>
+    <ul>
+        <li><a href="./media/gallery.html">Photo Gallery</a></li>
+        <li><a href="./media/videos.html">Video Gallery</a></li>
+        <li><a href="./media/news.html">Latest News</a></li>
+        <li><a href="./media/press.html">Press Releases</a></li>
+        <li><a href="./initiatives/education.html">Education Programs</a></li>
+        <li><a href="./initiatives/health.html">Health & Welfare</a></li>
+    </ul>
+</div>
+
+            <!-- Contact -->
+            <div class="nit-footer-column nit-contact-column">
+                <h3>Contact</h3>
+                <div class="nit-contact-item">
+                    <ion-icon name="location-outline"></ion-icon>
+                    <a href="https://www.google.com/maps/place/Nagpur+Institute+Of+Technology/@21.2211437,78.9911628,3a,75y,244.06h,90t/data=!3m8!1e1!3m6!1sCIHM0ogKEICAgIDUicax8AE!2e10!3e11!6shttps:%2F%2Flh3.googleusercontent.com%2Fgpms-cs-s%2FAPRy3c_sDeD42BKSsM48209vbB7stvpl3_bvKH07pw5f7qgVwydt-GwDRGKba1CtfqS5Yx5L8-rznrOzGyUdtJ_iY4KZy1q4ICq9vcyYeV35ZB7oT7PV9Jaj-py_FFcArZuLcyEY0pIvzg%3Dw900-h600-k-no-pi0-ya64.06049999999999-ro0-fo100!7i8192!8i4096!4m16!1m9!3m8!1s0x3bd4c7573604bdf9:0x48b9418a83fbe1da!2sNagpur+Institute+Of+Technology!8m2!3d21.2211437!4d78.9911628!9m1!1b1!16s%2Fm%2F0h56kgx!3m5!1s0x3bd4c7573604bdf9:0x48b9418a83fbe1da!8m2!3d21.2211437!4d78.9911628!16s%2Fm%2F0h56kgx?entry=ttu&g_ep=EgoyMDI1MTAyOS4yIKXMDSoASAFQAw%3D%3D"
+                        target="_blank">
+                        Survey No. 13/2, Katol Road, Nagpur, Maharashtra 441501
+                    </a>
+                </div>
+                <div class="nit-contact-item">
+                    <ion-icon name="call-outline"></ion-icon>
+                    <a href="tel:+919764974144">+91 97649 74144</a>
+                </div>
+                <div class="nit-contact-item">
+                    <ion-icon name="mail-outline"></ion-icon>
+                    <a href="mailto:info@nitcollege.edu.in">info@nitcollege.edu.in</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Bar -->
+        <div class="nit-footer-bottom">
+            <p>© 2025 Shri. Salil Deshmukh. All rights reserved.</p>
+            <p>
+                Designed by
+                <a href="" target="_blank">HP3 tech</a>
+              
+
+            </p>
+        </div> <br><br> <br><br>
+    </footer>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="./js/index.js"></script>
+
+
+</body>
+
+</html>
